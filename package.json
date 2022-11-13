@@ -9,7 +9,7 @@
     }
   },
   "lint-staged": {
-    "*.tsx": "prettier --write"
+    "*.tsx": ["prettier --write", "eslint"]
   },
   "scripts": {
     "dev": "vite",
