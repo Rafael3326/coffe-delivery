@@ -14,7 +14,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": ".",  // my baseUrl
+    "paths": {
+      "@app/*": ["./src/*"],  // in here i include paths for absolute imports
+      "@components/*":["./src/components/*"],  // watch the vite.config for explore more settings
+      "@containers/*":["./src/containers/*"],
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
