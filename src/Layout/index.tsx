@@ -1,5 +1,6 @@
 import { NavBar } from '@app/components/NavBar';
 import { ReactNode } from 'react';
+import { LayoutContainer } from './styles';
 
 export const Layout = (props: { children: ReactNode }) => {
   const { children } = props;
@@ -7,7 +8,7 @@ export const Layout = (props: { children: ReactNode }) => {
   return (
     <>
       <NavBar />
-      <div>{children}</div>
+      <LayoutContainer>{children}</LayoutContainer>
     </>
   );
 };

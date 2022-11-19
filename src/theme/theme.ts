@@ -19,7 +19,7 @@ export const defaultTheme = {
   },
   FONT_FAMILY: {
     ROBOTO: 'Roboto',
-    BALLO2: 'Ballo2',
+    BALLO2: 'Baloo 2',
   },
   FONT_WEIGHT: {
     REGULAR: 400,
